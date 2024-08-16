@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<title meta="UTF8"> my learnings </title>
+<style>
+h1{
+	text-align:center;
+	color:blue;
+	}
+table th,td{
+	border:2px solid black;
+	border-collapse:collapse;
+	}
+.class{ 
+	margin-right:30px;
+	padding:20px;
+	font-family:bolder;
+	border:2px solid black;
+	background-color:powderblue;
+	width:100%;
+	}
+	
+.class1{ 
+	margin-right:30px;
+	padding:20px;
+	font-family:bolder;
+	border:2px solid black;
+	background-color:tomato;
+	width:100%;
+	}
+	
+#Id{ 
+	margin-right:30px;
+	padding:20px;
+	font-family:bolder;
+	border:2px solid black;
+	background-color:gray;
+	width:100%;
+	}
+ol li{
+	text-align:left;
+	}
+ textarea{
+	 align:left;
+	}
+</style>
+</head>
+<body>
+<h1> Gowtham </h1>
+
+<img src="C:\Users\ITfyMe\Downloads\img_girl.jpg" alt="image" width="500" height="500"><hr>
+
+<a href="https://something.com/" > www.something.com </a><hr>
+
+<div class="class"> This table is in div tag
+<table width="90%">
+<tr>
+	<th>Id</th>
+	<th>Name</th>
+	<th>Phone</th>	
+	<th>Address</th>
+</tr>
+<tr>
+	<td>1</td>
+	<td>Gowtham </td>
+	<td>6843484454</td>
+	<td>Bengaluru</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>Gowtham </td>
+	<td>6843484454</td>
+	<td>Bengaluru</td>
+</tr>
+</table>
+<hr>
+<ol type="1">
+	<li>coffee</li>
+	<ul>
+		<li>sugar</li>
+		<li>sugarless</li>
+	</ul>
+	<li>tea</li>
+	<ul>
+		<li>sugar</li>
+		<li>sugarless</li>
+	</ul>
+</ol>
+</div>
+<hr>
+<div class="class1">
+<form> 
+	<label for="name"> ENTER THE NAME:</label><br>
+	<input type="text" id="name" name="name" ><br><br>
+	<label for="password"> ENTER THE PASSWORD:</label><br>
+	<input type="text" id="password" name="pwd"><br><br>
+	<input type="submit" >  
+</div>
+<hr>
+<div id="Id">
+	<label> Select a car:</label><br><br>
+	<input type="radio" id="car" name="car">
+	<label for="car"> BMW</label><br><br>
+	<input type="radio" id="car" name="car">
+	<label for="car"> BENZ</label><br><br>
+	<input type="radio" id="car" name="car">
+	<label for="car"> AUDI</label><br><br>
+	<input type="submit">
+</div>
+<hr>
+<div class="class">
+	<label for="cars">SELECT ONE OR MORE:</label>
+	<Select id="car" name="car">
+	<option> BMW</option><br>
+	<option> BENZ</option>
+	<option> AUDI</option>
+	<option> FORTUNER</option>
+	</select>
+	<input type="submit">
+	<br><br><br><br>
+</div>
+<hr>
+
+	<textarea name="feedback" rows="15px" cols="50px">
+	Give some feedback about this page...
+	</textarea><br>
+	<input type="submit">
+
+<hr>
+<div class="class1">
+	<label> CHOOSE ONE OR MORE OPTION</label><br>
+	<input type="checkbox" id="cars" name="cars">
+	<label for="cars"> BMW</label><br><br>
+	<input type="checkbox" id="cars" name="cars">
+	<label for="cars"> BENZ</label><br><br>
+	<input type="checkbox" id="cars" name="cars">
+	<label for="cars"> AUDI</label><br><br>
+	<input type="checkbox" id="cars" name="cars">
+	<label for="cars"> FORTUNER</label><br><br>
+	<input type="submit">
+</div>
+
+<div class="class">
+	<label for="datetime">ENTER EMAIL:</label>
+	<input type="datetime-local" id="datetime" name="datetime"><br><br>
+	<input type="submit">  
+</div>
+<hr>
+<div class="class1">
+	<label for="email">ENTER EMAIL:</label>
+	<input type="email" id="email" name="email"><br><br>
+	<input type="submit">  
+</div>
+<hr>
+<div id="Id">
+	<label for="phone"> ENTER PHONE NUMBER:</label>
+	<input type="tel" id="phone" name="phone" placeholder="123-4567-890" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"><br><br>
+	<input type="submit">
+	<input type="reset">
+</div>
+</body>
+</html>
